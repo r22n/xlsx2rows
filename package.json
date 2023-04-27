@@ -1,6 +1,6 @@
 {
   "name": "xlsx2rows",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "get tuple from xlsx file by template xlsx file",
   "main": "index.js",
   "scripts": {

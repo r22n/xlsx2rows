@@ -14,9 +14,9 @@ export type CommonArgument = {
     /**
      * xlsx file has 'template-var' surrounded by `${}` e.g. ${XXX}.
      * 
-     * the 'template-var' shoud satisfy all;
+     * the 'template-var' should satisfy all;
      * - in its cell, be consist of only `${}` form
-     * - var-name shoud be [0-9a-zA-Z_]+
+     * - var-name should be /^[0-9a-zA-Z_]+$/
      * - all white space count sensitivity in its cell is unspecified 
      */
     template: Blob;
@@ -87,7 +87,7 @@ export type Row = {
     /**
      * same pointer in 'source' of 'arg'.
      * 
-     * 'tuple' field comed up from this 'source' field.
+     * 'tuple' field came up from this 'source' field.
      * 
      * @see CommonArgument
      */
