@@ -1,6 +1,6 @@
 {
   "name": "xlsx2rows",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get tuple from xlsx file by template xlsx file",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,13 @@
   "dependencies": {
     "browserify-fs": "^1.0.0",
     "xlsx": "^0.18.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r22n/xlsx2rows.git"
+  },
+  "bugs": {
+    "url": "https://github.com/r22n/xlsx2rows/issues"
+  },
+  "homepage": "https://github.com/r22n/xlsx2rows#readme"
 }
